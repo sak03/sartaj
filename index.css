@@ -14,7 +14,7 @@ span {
   color: red !important;
 }
 .bg-nav {
-  background: rgba(0, 0, 0, 0.5) url("bg_photo.jpg") !important;
+  background: rgba(0, 0, 0, 0.5) url("images/bg_photo.jpg") !important;
   background-size: cover !important;
   background-blend-mode: darken !important;
   background-repeat: no-repeat !important;
@@ -26,7 +26,7 @@ span {
 }
 
 .container1 {
-  background: rgba(0, 0, 0, 0.5) url("bg_photo.jpg") !important;
+  background: rgba(0, 0, 0, 0.5) url("images/bg_photo.jpg") !important;
   background-size: cover !important;
   background-blend-mode: darken !important;
   background-repeat: no-repeat !important;
@@ -63,7 +63,7 @@ h1 {
 
 .conct {
   background-color: rgba(212, 202, 121, 0.856);
-  box-shadow: 5px 5px 0 grey;
+  box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.664);
 }
 
 .foot {
