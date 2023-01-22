@@ -25,7 +25,7 @@
 <body onload="initClock()">
 
     <!-- navigation bar details -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-secondary sticky-top bg-nav"
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary sticky-top bg-nav text-white"
         style="font-family: 'Roboto', sans-serif; opacity: 0.9;">
         <div class="container-fluid">
             <a class="navbar-brand text-light hovr" href="#">SARTAJ ALAM</a>
@@ -33,7 +33,7 @@
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div class="collapse navbar-collapse text-white" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item mx-2">
                         <a class="nav-link active text-light hovr" aria-current="page" href="#">Home</a>
@@ -61,9 +61,9 @@
                             Major Projects
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <!-- <li><a class="dropdown-item hovr" href="#weather">Weather App</a></li>
-                            <li><a class="dropdown-item hovr" href="#library">Public Library</a></li> -->
-                            <li><a class="dropdown-item hovr" href="#electroForce">ElectroForce</a></li>
+                            <li><a class="dropdown-item hovr" href="#lifeSchool">Life School</a></li>
+                            <li><a class="dropdown-item hovr" href="#centrikApp">Centrik-App</a></li>
+                            <li><a class="dropdown-item hovr" href="#weather">Weather App </a></li>
                             <li><a class="dropdown-item hovr" href="#textUtils">TextUtils</a></li>
                         </ul>
                     </li>
@@ -284,156 +284,143 @@
     </div> <br>
 
     <!-- major project with external link -->
-    <a name="weather"></a>
+    <a name="lifeSchool"></a>
     <h1 class="mx-5 my-4">Major Projects</h1>
-    <div class="card mb-3 border-0" style="max-width: 80%; margin: 0 auto;">
-        <div class="row g-0">
-            <div class="col-md-4">
-                <img src="https://source.unsplash.com/900x900/?weather,forcast,lightning"
-                    class="img-fluid rounded-start" alt="...">
-            </div>
-            <div class="col-md-8">
-                <div class="card-body">
-                    <h3 class="card-title">Weather App</h3> <br>
-                    <p class="card-text">This is a real time weather forcast application. This shows the temperature and
-                        weather information of some perticular locations. Some important featurs of this project are
-                        mentioned
-                        below:
-                    <ul>
-                        <li>User frindly and easy to use.</li>
-                        <li>Made by use of HTML, CSS & JavaScript.</li>
-                        <li>Uses the fetch API call</li>
-                        <li>Fully responsive, functional and compatible for mobiles also.</li>
-                        <li><a href="https://github.com/sak03/weatherApp" target="blank">GitHub repositorie link
-                                >></a></li>
-                    </ul>
-                    </p>
-                    <a href="https://sak03.github.io/weatherApp/" class="btn btn-outline-primary" target="blank">Project
-                        preview</a>
-                </div>
+    <div class="row mx-2">
+        <h3 class="card-title">Life School</h3>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+            <img src="https://source.unsplash.com/500x300/?school,classroom,college,university"
+                class="img-fluid rounded-start rounded" alt="...">
+        </div>
+        <div class="col-sm-12 col-md-8 col-lg-8">
+            <div class="card-body">
+                <!-- <h3 class="card-title">Life School</h3> <br> -->
+                <p class="card-text">This is a simple web application made on react that has three
+                    users called admin, teacher, and student. The UI will reflect on the basis of
+                    Users. Some important featurs of this project are mentioned below:
+                <ul>
+                    <li>User frindly and easy to use.</li>
+                    <li>Made by use of React, Redux, Axios, Prime React and Core UI.</li>
+                    <li>Fully responsive, functional and compatible for mobiles also.</li>
+                    <li><a href="https://github.com/sak03/life-school.git" target="blank">GitHub repositorie link
+                            >></a></li>
+                </ul>
+                </p>
+                <!-- <a href="https://sak03.github.io/life-school/" class="btn btn-outline-primary" target="blank">Project
+                    preview</a> -->
             </div>
         </div>
-    </div> <br>
-
-    <!-- <a name="library"></a>
-    <div class="card mb-3 border-0" style="max-width: 80%; margin: 0 auto;">
-        <div class="row g-0">
-            <div class="col-md-8">
-                <div class="card-body">
-                    <h3 class="card-title">Public Lbrary</h3> <br>
-                    <p class="card-text">This website is all about landing view of Libraries. Here we consider some
-                        important points to make this happen. Some important featurs of this project are mentioned
-                        below:
-                    <ul>
-                        <li>User frindly and easy to use.</li>
-                        <li>Made by use of HTML, CSS & JavaScript.</li>
-                        <li>No any library and frameworks are used.</li>
-                        <li>Fully responsive and compatible for mobiles also.</li>
-                        <li><a href="https://github.com/sak03/publicLibrary" target="blank">GitHub repositorie link
-                                >></a></li>
-                    </ul>
-                    </p>
-                    <a href="https://sak03.github.io/publicLibrary/" class="btn btn-outline-primary"
-                        target="blank">Project preview</a>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <img src="https://source.unsplash.com/900x900/?books,college,library" class="img-fluid rounded-start"
-                    alt="...">
+    </div>
+    <a name="centrikApp"></a>
+    <hr style="color: gray">
+    <div class="row mx-2">
+        <h3 class="card-title">Centrik-App</h3>
+        <div class="col-sm-12 col-md-8 col-lg-8">
+            <div class="card-body">
+                <p class="card-text">This is a simple e-commerce application made on react. In
+                    this project, I fetch product data, distribute them by their categories, and
+                    applied search filtering. Some important featurs of this project are mentioned below:
+                <ul>
+                    <li>User frindly and easy to use.</li>
+                    <li>Made by use of React, Axios and primeReact.</li>
+                    <li>Uses the call users API and applied search parameter.</li>
+                    <li>Fully responsive, functional and compatible for mobiles also.</li>
+                    <li><a href="https://github.com/sak03/weatherApp" target="blank">GitHub repositorie link
+                            >></a></li>
+                </ul>
+                </p>
+                <!-- <a href="https://sak03.github.io/weatherApp/" class="btn btn-outline-primary" target="blank">Project
+                    preview</a> -->
             </div>
         </div>
-    </div> <br> -->
-
-    <!-- <a name="electroForce"></a>
-    <div class="card mb-3 border-0" style="max-width: 80%; margin: 0 auto;">
-        <div class="row g-0">
-            <div class="col-md-4">
-                <img src="https://source.unsplash.com/900x900/?fan,bulb" class="img-fluid rounded-start" alt="...">
-            </div>
-            <div class="col-md-8">
-                <div class="card-body">
-                    <h3 class="card-title">ElectroForce</h3> <br>
-                    <p class="card-text">This is basically a landing page of electrical and electronics company named
-                        EletroForce. This is completely made by using Bootstrap. Some important featurs of this project
-                        are mentioned below:
-                    <ul>
-                        <li>User frindly and easy to use.</li>
-                        <li>Made by use of Bootstrap & JS.</li>
-                        <li>Carousel and Cards also used in this project.</li>
-                        <li>Fully responsive and compatible for mobiles also.</li>
-                        <li><a href="https://github.com/sak03/ElectroForce" target="blank">GitHub repositorie link
-                                >></a></li>
-                    </ul>
-                    </p>
-                    <a href="https://sak03.github.io/ElectroForce/" class="btn btn-outline-primary"
-                        target="blank">Project preview</a>
-                </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+            <img src="https://source.unsplash.com/500x300/?mobile,chair,cloths" class="img-fluid rounded" alt="...">
+        </div>
+    </div>
+    <a name="weather"></a>
+    <hr style="color: gray">
+    <div class="row mx-2">
+        <h3 class="card-title">Weather App</h3>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+            <img src="https://source.unsplash.com/500x300/?weather,forcast,lightning,thuderstorm"
+                class="img-fluid rounded" alt="...">
+        </div>
+        <div class="col-sm-12 col-md-8 col-lg-8">
+            <div class="card-body">
+                <p class="card-text">This is a real time weather forcast application. This shows the temperature
+                    and
+                    weather information of some perticular locations. Some important featurs of this project are
+                    mentioned
+                    below:
+                <ul>
+                    <li>User frindly and easy to use.</li>
+                    <li>Made by use of HTML, CSS & JavaScript.</li>
+                    <li>Uses the fetch API call</li>
+                    <li>Fully responsive, functional and compatible for mobiles also.</li>
+                    <li><a href="https://github.com/sak03/weatherApp" target="blank">GitHub repositorie link
+                            >></a></li>
+                </ul>
+                </p>
+                <a href="https://sak03.github.io/weatherApp/" class="btn btn-outline-primary" target="blank">Project
+                    preview</a>
             </div>
         </div>
-    </div> <br> -->
-
+    </div>
+    <hr style="color: gray">
     <a name="textUtils"></a>
-    <div class="card mb-3 border-0" style="max-width: 80%; margin: 0 auto;">
-        <div class="row g-0">
-            <div class="col-md-8">
-                <div class="card-body">
-                    <h3 class="card-title">TextUtils</h3>
-                    <h3 class="text-danger blinkMe"> &#9888; COMMING SOON </h3>
-                    <p class="card-text">This website is all about the textUtils where we change the text by various
-                        methods. Some important featurs of this project are mentioned below:
-                    <ul>
-                        <li>User frindly and easy to use.</li>
-                        <li>Made by use of React JS & Bootstrap.</li>
-                        <li>feature of dark mode enable added</li>
-                        <li>Fully functional, responsive and compatible for mobiles also.</li>
-                        <li><a href="https://github.com/sak03/textUtils" target="blank">GitHub repositorie link
-                                >></a></li>
-                    </ul>
-                    </p>
-                    <a href="https://sak03.github.io/textUtils/" class="btn btn-outline-primary" target="blank">Project
-                        preview</a>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <img src="https://source.unsplash.com/900x900/?font,text,word" class="img-fluid rounded-start"
-                    alt="...">
+    <div class="row mx-2">
+        <h3 class="card-title">TextUtils</h3>
+        <div class="col-sm-12 col-md-8 col-lg-8">
+            <div class="card-body">
+                <h3 class="text-danger blinkMe"> &#9888; COMMING SOON </h3>
+                <p class="card-text">This website is all about the textUtils where we change the text by various
+                    methods. Some important featurs of this project are mentioned below:
+                <ul>
+                    <li>User frindly and easy to use.</li>
+                    <li>Made by use of React JS & Bootstrap.</li>
+                    <li>feature of dark mode enable added</li>
+                    <li>Fully functional, responsive and compatible for mobiles also.</li>
+                    <li><a href="https://github.com/sak03/textUtils" target="blank">GitHub repositorie link
+                            >></a></li>
+                </ul>
+                </p>
+                <!-- <a href="https://sak03.github.io/textUtils/" class="btn btn-outline-primary" target="blank">Project
+                    preview</a> -->
             </div>
         </div>
-    </div><br> <br>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+            <img src="https://source.unsplash.com/500x300/?font,text,word" class="img-fluid rounded" alt="...">
+        </div>
+    </div>
+    <hr style="color: gray">
 
     <!-- code of about me  -->
     <a name="aboutMe"></a>
 
-    <div class="card mb-3 w-75 border-0" style="max-width: 100vw; margin: 0 auto; width: 60% !important;">
-        <div class="row g-0">
-            <div class="col-md-4">
-                <img src="photo2.jpeg" class="img-fluid rounded-start py-0" alt="Error" title="Sartaj"
-                    style=" border-radius: 1vw; width: 100%; box-shadow: 0.5vw 0.5vw 0 rgba(168, 144, 144, 0.918);">
-            </div>
-            <div class="col-md-8">
-                <div class="card-body my-0 mx-3">
-                    <h2 class="card-title">About Me</h2>
-                    <h5>Front End Web Developer</h5>
-                    <p class="card-text text-justify">
-                        I'm Sartaj Alam, and my portfolio represents everything that I've learned and accomplished as
-                        a
-                        science
-                        and engineering student. <br> I develop websites for small businesses. While I'm based in New
-                        Delhi, India. I help to build websites for people all over the world. <br> I love designing
-                        websites
-                        and am
-                        looking for more opportunities to work in coding. It's motivate me towards the
-                        world of coding.
-                        <br>I did M.Tech(EE) in Power System and Drives from ZHCET, AMU, Aligarh and B.Tech in
-                        Electrical Engineering from JMI, New Delhi.
-                    </p>
-                    <a class="btn btn-outline-info mx-5"
-                        href="https://drive.google.com/file/d/1xCem-OI2QQcdxN8S_JZe2MItXlAxCHOQ/view?usp=sharing"
-                        target="blank" role="button">Download Resume</a>
-                </div>
+    <div class="row mx-2">
+        <h2 class="card-title">About Me</h2>
+        <div class="col-sm-12 col-md-3 col-lg-3">
+            <img src="photo2.jpeg" class="img-fluid py-0 rounded box-shadow w-100" alt="Error" title="Sartaj">
+        </div>
+        <div class="col-sm-12 col-md-9 col-lg-9">
+            <div class="card-body">
+                <strong>I'm a Front End Web Developer.</strong>
+                <p class="card-text text-justify">
+                    My portfolio represents everything that I've learned and accomplished as
+                    a science and engineering student. <br> 
+                    I develop web applications and websites for small businesses. While I'm based in New Delhi, India. I help to build web applications and websites for people all over the world. <br> 
+                    I love designing websites and functionalities of web applications, I'm looking for more opportunities to work in coding. It's motivate me towards the world of coding. <br>
+                    Currently I'm working at 
+                    <a href="https://www.mityung.com/" target="_blank">Mityung Infotech (p) Ltd.</a> as frontend web developer. <br/>
+                    I did M.Tech(EE) in Power System and Drives from ZHCET, AMU, Aligarh and B.Tech in Electrical Engineering from JMI, New Delhi.
+                </p>
+                <a class="btn btn-outline-info mx-5"
+                    href="https://drive.google.com/file/d/1xCem-OI2QQcdxN8S_JZe2MItXlAxCHOQ/view?usp=sharing"
+                    target="blank" role="button">Download Resume</a>
             </div>
         </div>
-    </div> <br>
+    </div>
+    <hr style="color: gray">
 
     <!-- contact information -->
     <a name="contact"></a>
@@ -534,7 +521,7 @@
 
         <div class="d-flex align-items-center justify-content-between">
             <p class="text-white mx-2"> &emsp; Copyright &copy; All rights reserved </p>
-            <p class="text-white mx-3">Maintained by: <a href="#" class="text-light hovr"
+            <p class="text-white mx-5">Maintained by: <a href="#" class="text-light hovr"
                     style="text-decoration: none;"> Sarta
                     Alam</a></p>
         </div>
